@@ -1,0 +1,86 @@
+
+<h2>Register Property</h2>
+
+<form class="col-8">
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Title:</label>
+        <div class="col-8">
+            <input id="textTitle" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Bedrooms:</label>
+        <div class="col-8">
+            <input id="textBedrooms" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Bathrooms:</label>
+        <div class="col-8">
+            <input id="textBathrooms" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Price:</label>
+        <div class="col-8">
+            <input id="textPrice" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Area:</label>
+        <div class="col-8">
+            <input id="textArea" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Description:</label>
+        <div class="col-8">
+            <input id="textDescription" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Parking included</label>
+        <div class="col-8">
+            <div class="custom-control custom-radio custom-control-inline">         
+                    <input type="radio" id="rbRadio_0"  class="custom-control-input" value="true">
+                    <label for="radio_0"> Yes </label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rbRadio_1"  class="custom-control-input" value="false">
+                    <label for="radio_1"> No </label>
+            </div>
+       </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-8 offset-4">
+             <button type="button" id="brnSave" class="btn btn-info"> Save Property</button>    
+      </div>
+</div>
+
+</form>
+
+@section Scripts{
+<script src="/js/register.js"></script>
+}
+
+
+
+<!--
+    Property:
+    - Price
+    - Title
+    - ImageUrl
+    - Beds
+    - Baths
+    - Area (sqft)
+    - Description
+    - Parking Included
+
+-->
